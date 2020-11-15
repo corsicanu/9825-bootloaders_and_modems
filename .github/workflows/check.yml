@@ -17,8 +17,6 @@ jobs:
             region: "KOO"
           - model: "SM-N971N"
             region: "KOO"
-          - model: "SM-N976Q"
-            region: "XSG"
           - model: "SM-N976B"
             region: "AUT"
           - model: "SM-N970F"
