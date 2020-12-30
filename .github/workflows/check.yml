@@ -18,11 +18,11 @@ jobs:
           - model: "SM-N971N"
             region: "KOO"
           - model: "SM-N976B"
-            region: "BTU"
+            region: "AUT"
           - model: "SM-N970F"
-            region: "BTU"
+            region: "DBT"
           - model: "SM-N975F"
-            region: "BTU"
+            region: "DBT"
 
     steps:
       - name: Checkout repo
