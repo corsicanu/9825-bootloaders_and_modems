@@ -20,9 +20,9 @@ jobs:
           - model: "SM-N976B"
             region: "AUT"
           - model: "SM-N970F"
-            region: "DBT"
+            region: "AUT"
           - model: "SM-N975F"
-            region: "DBT"
+            region: "AUT"
 
     steps:
       - name: Checkout repo
