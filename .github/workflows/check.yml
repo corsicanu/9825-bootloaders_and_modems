@@ -18,7 +18,7 @@ jobs:
             codename: "d2xks"
           - model: "SM-N971N"
             region: "KOO"
-            codename: "d2xks"
+            codename: "d1xks"
           - model: "SM-N976B"
             region: "AUT"
             codename: "d2x"
