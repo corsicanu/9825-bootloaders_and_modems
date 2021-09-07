@@ -122,7 +122,7 @@ jobs:
           tar xvf ${{ steps.files.outputs.bl }} 
           tar xvf ${{ steps.files.outputs.cp }}
           for i in `ls | grep lz4`; do lz4 -dm $i ; rm -rf $i; done
-          extract-ikconfig boot.img > configs/exynos9825-${{ matrix.codename }}_defconfig
+          extract-ikconfig boot.img > configs/exynos9820-${{ matrix.codename }}_defconfig
           cd tmp
           unpackbootimg -i ../boot.img >> ../configs/bootimg.args && mkdtimg dump ../dt.img >> ../configs/exynos9825.cfg
           splitdt ../dt.img && dtc dtbdump_* -I dtb -O dts -o ../configs/exynos9825.dts && rm -rf *
