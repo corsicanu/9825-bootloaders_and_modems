@@ -23,10 +23,10 @@ jobs:
             region: "AUT"
             codename: "d2x"
           - model: "SM-N970F"
-            region: "DBT"
+            region: "AUT"
             codename: "d1"
           - model: "SM-N975F"
-            region: "DBT"
+            region: "AUT"
             codename: "d2s"
 
     steps:
