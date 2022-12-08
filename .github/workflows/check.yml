@@ -22,7 +22,7 @@ jobs:
             region: "KOO"
             codename: "d1xks"
           - model: "SM-N976B"
-            region: "DBT"
+            region: "BTU"
             codename: "d2x"
           - model: "SM-N970F"
             region: "DBT"
