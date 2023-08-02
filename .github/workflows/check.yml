@@ -22,13 +22,13 @@ jobs:
             region: "KOO"
             codename: "d1xks"
           - model: "SM-N976B"
-            region: "AUT"
+            region: "XEU"
             codename: "d2x"
           - model: "SM-N970F"
-            region: "AUT"
+            region: "DBT"
             codename: "d1"
           - model: "SM-N975F"
-            region: "AUT"
+            region: "DBT"
             codename: "d2s"
 
     steps:
